@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+    
+
+    <form action="/tacos">
+        <button type="button" >DON'T SUBMIT!</button>
+    <p>
+        <label for="username">Enter a username:</label>
+        <input id="username" type="text" placeholder="username" name="username" >
+    </p>
+    <p>
+        <label for="password">Enter a password:</label>
+        <input id="password" type="password" placeholder="enter your password" name="password">
+    </p>
+    <p>
+        <label for="color">Enter a color</label>
+        <input id="color" type="color" name="color" >
+
+    </p>
+
+    <p>
+        <label for="number">Enter a number only</label>
+        <input id="number" type="number" placeholder="num_here" name="num" min="1" max="1000" step="2" value="15">
+    </p>
+    
+    <BUTTon>Submit</BUTTon>
+    <input type="submit" value="hey you can submit here also" >
+    <!--second way is long process, first is the ideal choice for this purpose-->
+
+    </form>
+    <hr>
+    <h2>Hijacking Searches</h2>
+    <h3>Reddit Search</h3>
+    <form action="https://www.reddit.com/search">
+    <input type="text" name="q" placeholder="reddit search engine">
+    <button>search on reddit</button>
+    </form>
+
+    <h3>Google Search</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="google search engine">
+        <button>Search on google</button>
+    </form>
+
+    <h3>Youtube Search</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="q" placeholder="youtube search engine">
+        <button>search on youtube</button>
+
+    </form>
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+    <input type="checkbox" name="agree_tos" id="agree"  >
+    <label for="agree">I agree to everything</label>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="Size" id="xs" value="xsmall">
+            <label for="s">S:</label>
+            <input type="radio" name="Size" id="s" value="small">
+            <label for="m">M:</label>
+            <input type="radio" name="Size" id="m" value="medium">
+        </p>
+
+        <p>
+            <label for="meal">Please select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="">--Choose a meal--</option>
+                <option value="fish">Fish</option>
+                <option value="steak">Steak</option>
+                <option value="veg">Vegeterian</option>
+            </select>
+        </p>
+
+
+        <p>
+            <label for="cheese">Amount of cheese:</label>
+            <input type="range" id="cheese" name="cheese_level" value="75" step="7" min="1" max="100">
+
+        </p>
+
+        <p>
+            <label for="text_section">Do you have some thought?</label>
+            <br>
+            <textarea name="Text Area" id="text_section" cols="60" rows="15" placeholder="Something you wanna tell."></textarea>
+        </p>
+
+    <button>Submit</button>
+    </form>
+    
+    
+</body>
+</html>
