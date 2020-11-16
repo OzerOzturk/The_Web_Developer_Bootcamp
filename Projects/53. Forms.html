@@ -77,7 +77,7 @@
                 <option value="veg">Vegeterian</option>
             </select>
         </p>
-
+    </form>
 
         <p>
             <label for="cheese">Amount of cheese:</label>
@@ -92,7 +92,25 @@
         </p>
 
     <button>Submit</button>
+
+    <h2>Validations Demo</h2>
+        <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="firstabc"  id="first" required>
+
+        <p>
+            <label for="username">Username</label>
+            <input type="text" id="username" minlength="5" maxlength="15" required>
+        </p>
+
+        <p>
+           <!-- <input type="email" required> --> 
+            <input type="url" required>
+        </p>
+
+        <button>Submit</button>
     </form>
+    
     
     
 </body>
