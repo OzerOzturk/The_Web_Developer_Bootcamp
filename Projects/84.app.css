@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #e5989b;
+}
+
+h1{
+    background-color: pink;
+    width: 100px;
+    padding-left: 15px;
+}
+
+#one {
+    background-color: rgb(134, 134, 180);
+    border-width: 5px;
+    border-color: darkgoldenrod;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 25%;
+    margin-bottom: 17px;
+}
+
+#two {
+    background-color: rgb(120, 120, 184);
+    border-width: 6px;
+    border-color: orange;
+    border-style: dashed;
+    border-left-color: rgb(179, 114, 34);
+    border-left-style: dotted;
+    border-left-width: 9px;
+    
+}
+
+#three {
+    background-color: rgb(104, 104, 184);
+    border: 5px solid black;
+    border-left-style: dotted;
+    border-radius: 10px;
+}
+
+button {
+    padding:10px 20px 30px 40px;
+}
