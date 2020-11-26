@@ -1,0 +1,29 @@
+h1{
+    background-color: goldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+
+
+span{ background-color: lightgreen;
+    border: 1px solid darkblue;
+    display: block;
+
+ }
+
+ h2{background-color:lightblue;
+    border: 2px solid rgb(119, 16, 119);
+    width: 200px;
+    height: 10px;
+    padding: 14px;
+    margin: 20px;
+ }
+
+ div{
+     width: 200px;
+     height: 100px;
+     background-color: lightcoral;
+     display:inline-block;
+     border: 3px solid darkorchid;
+     margin: 50px;
+ }
