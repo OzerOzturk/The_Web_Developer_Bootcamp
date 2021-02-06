@@ -32,18 +32,18 @@ else if (dayOfWeek === "friday") {
 
 
 
- const age = 89;
+ const age = 16;
 
- if (age <5 ) {
-     console.log("you are a baby, you get in for free")
+ if ( (age >=0 && age<5 ) || age>= 65 ) {
+     console.log("free")
  }  
 //  if 1st case is not correct, then its time to go 2nd case //
- else if (age <10) {   
-    console.log("you are a child, you pay $10")
- } else if (age <65) {
-    console.log("you are an adult, you pay $20")
+ else if (age >=5 && age<10 ) {   
+    console.log("$10")
+ } else if (age >=10 && age<65 ) {
+    console.log("$20")
  } else {
-     console.log("you are a senior, you pay $10")
+     console.log("INVALID AGE!")
  }
  
  
